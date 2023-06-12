@@ -31,7 +31,7 @@ mod hello_world {
         let queries = "
             CREATE TABLE greet (name TEXT);
             INSERT INTO greet VALUES ('World');
-        ";
+        "; 
 
         glue.execute(queries).await.expect("Execution failed");
 
